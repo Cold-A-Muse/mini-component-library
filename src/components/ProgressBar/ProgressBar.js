@@ -42,10 +42,11 @@ const BarContainer = styled.progress`
         background: ${COLORS.primary};
         border-radius: 8px 0 0 8px; 
       }
-
-      &[value="100"]::-webkit-progress-value {
+      
+      overflow: hidden;
+      /* &[value="100"]::-webkit-progress-value {
         border-radius: 8px; 
-      }
+      } */
 
   `}
  
